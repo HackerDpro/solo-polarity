@@ -1,13 +1,28 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>solo-polarity</title>
-  </head>
-  <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.js"></script>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Solo Polarity</title>
+  <link rel="stylesheet" href="/src/styles/main.css" />
+</head>
+<body>
+  <canvas id="game-canvas"></canvas>
+  <div id="hud"></div>
+
+  <div id="start-screen" class="overlay">
+    <h1>SOLO <span>POLARITY</span></h1>
+    <p>Survive the waves. Attract. Repel. Evolve.</p>
+    <button id="start-btn">START</button>
+    <div class="controls-hint">WASD move · Hold LMB attract · Hold RMB repel</div>
+  </div>
+
+  <div id="game-over-screen" class="overlay hidden">
+    <h1>NEUTRALIZED</h1>
+    <p id="final-score"></p>
+    <button id="restart-btn">RETRY</button>
+  </div>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
 </html>
