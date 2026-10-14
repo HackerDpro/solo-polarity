@@ -4,7 +4,7 @@ Attract and repel through AI bot waves. Built for Hack Club Terra.
 
 ## Play
 
-We don't have a public link yet!!!
+[https://solo-polarity.netlify.app/](https://solo-polarity.netlify.app/)
 
 ## Controls
 
@@ -22,25 +22,25 @@ We don't have a public link yet!!!
 - Tiers that transform your abilities
 - Endless wave survival with scaling difficulty
 
-## 🛠️ Stack
+## Stack
 
 Vanilla JS (ES Modules) + HTML5 Canvas 2D + Vite
 
-## 🚀 Local Dev
+## Local Dev
 
-\`\`\`bash
-git clone https://github.com/<you>/solo-polarity.git
+```
+git clone https://github.com/HackerDpro/solo-polarity.git
 cd solo-polarity
 npm install
 npm run dev
-\`\`\`
+```
 
 Full design doc: [docs/DESIGN.md](docs/DESIGN.md)
 
-## 📜 License
+## License
 
 MIT
 
-## 🏕️ Built for
+## Built for
 
 [Terra](https://terra.hackclub.com) — Hack Club
